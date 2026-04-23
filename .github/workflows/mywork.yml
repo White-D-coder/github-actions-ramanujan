@@ -9,4 +9,4 @@ jobs:
         run: echo "Hello World"
 
       - name: Print hello world
-        run: ls
+        run: lsof -la
