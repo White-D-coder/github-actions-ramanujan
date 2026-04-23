@@ -6,4 +6,4 @@ jobs:
     runs-on: macOS-latest
     steps:
       - name: Print hello world
-        run: lsof -la
+        run: ls
