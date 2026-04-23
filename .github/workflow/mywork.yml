@@ -1,8 +1,7 @@
 name: Print hello world
 on: 
   push:
-    branches:
-      - main
+    branches: [main]
 jobs:
   print:
     runs-on: macOS-latest
